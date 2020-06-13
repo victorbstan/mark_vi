@@ -1,0 +1,9 @@
+﻿Build started 6/13/2020 1:07:43 PM.
+     1>Project "F:\Downloads\mark_v_1099_revision_4_source\Mark_V\Mark_V_Visual_Studio_2008.vcxproj" on node 2 (build target(s)).
+       Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets(511,5): error MSB8008: Specified platform toolset (v142) is not installed or invalid. Please make sure that a supported PlatformToolset value is selected.
+     1>Done Building Project "F:\Downloads\mark_v_1099_revision_4_source\Mark_V\Mark_V_Visual_Studio_2008.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.05

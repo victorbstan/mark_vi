@@ -1,0 +1,56 @@
+﻿Build started 6/13/2020 1:11:10 PM.
+     1>Project "F:\Downloads\mark_v_1099_revision_4_source\Mark_V\Mark_V_Visual_Studio_2008.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\objj\Debug_MSVC_2008_WinQuake\Mark Nova.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       _qasm:
+         Processing .s file
+       _qasm:
+         Processing .s file
+       _qasm:
+         Processing .s file
+       _qasm:
+         Processing .s file
+       _qasm:
+         Processing .s file
+       _qasm:
+         Processing .s file
+       _qasm:
+         Processing .s file
+       _qasm:
+         Processing .s file
+       _qasm:
+         Processing .s file
+       _qasm:
+         Processing .s file
+       _qasm:
+         Processing .s file
+       _qasm:
+         Processing .s file
+       _qasm:
+         Processing .s file
+       _qasm:
+         Processing .s file
+       _qasm:
+         Processing .s file
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(F:\Downloads\mark_v_1099_revision_4_source\Mark_V\.\objj\Debug_MSVC_2008_WinQuake\Mark Nova.exe) does not match the Linker's OutputFile property value (c:\quake\mark_v_winquake_debug_vs2008.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(Mark Nova) does not match the Linker's OutputFile property value (mark_v_winquake_debug_vs2008). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       BscMake:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file ".\objj\Debug_MSVC_2008_WinQuake\Mark Nova.unsuccessfulbuild".
+         Touching ".\objj\Debug_MSVC_2008_WinQuake\Mark Nova.lastbuildstate".
+     1>Done Building Project "F:\Downloads\mark_v_1099_revision_4_source\Mark_V\Mark_V_Visual_Studio_2008.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.28

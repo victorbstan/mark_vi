@@ -1,0 +1,1533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{38daa352-6b93-4274-b02a-c77a11d990ff}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ASM">
+      <UniqueIdentifier>{f52e5b06-646b-4ae0-ba60-e1b23cf59570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Driver">
+      <UniqueIdentifier>{481803b7-5683-41d1-9078-64fe07368030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ref GL">
+      <UniqueIdentifier>{a773606f-7e6f-4c0f-9637-8157ec654984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ref Software">
+      <UniqueIdentifier>{18d22ee8-e570-4339-b104-341f3ae2e553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ref DX8">
+      <UniqueIdentifier>{af00a53d-7d73-4eb5-9d1d-5a26304236b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mac OS X">
+      <UniqueIdentifier>{eca0b22d-5fce-4421-a17d-f0b39af64ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{ac1fbd42-2414-4327-9c92-1724fe5d6182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\noveau">
+      <UniqueIdentifier>{5c4acb73-3fbc-4058-9a03-ff1f8577f308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HTTP">
+      <UniqueIdentifier>{af512a85-83e5-446e-9bef-bea6f6024eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HTTP\API">
+      <UniqueIdentifier>{805fac11-25db-4170-8f5a-d174e7300b8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ref DX9">
+      <UniqueIdentifier>{ce12147d-7428-4dc8-bad9-9ae1d4b5a32b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\iPhone">
+      <UniqueIdentifier>{71aa9e30-6509-46a5-962a-6fc7db5fd02d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows">
+      <UniqueIdentifier>{e85af469-0569-44f3-8aba-f683b9f46b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SDL">
+      <UniqueIdentifier>{5a2c22ba-8e71-497e-89c6-1ee9d4610a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{7a8ffce6-e908-468d-8a63-8eb0ba4db5d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\menus">
+      <UniqueIdentifier>{bb5dc6eb-84d3-4394-85ef-f49471991c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{39e69c50-40fe-4854-8445-b436a6f6c2b2}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="anorms.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arch_def.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bspfile.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="buffers.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd_list_sheet.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmdline_list_sheet.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="crc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cvar.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cvar_list_sheet.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="draw.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="keys.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="location.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="modelgen.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="movie.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nehahra.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="net.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="net_admin.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="net_defs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="net_dgrm.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="net_loop.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="net_sys.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="net_udp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="net_vcr.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pr_comp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="progdefs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="progs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="q_image.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="q_lists.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="q_mathlib.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="q_music.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="q_sound.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="q_stdinc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quakedef.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="r_part_qmb.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="recent_file.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbar.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="screen.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="spritegn.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="msinttypes\stdint.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sys.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="talk_macro.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="text_autocomplete.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="text_edit.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="text_history.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="text_key.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="text_undo.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vid.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="view.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wad.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="world.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wsaerror.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zone.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\dx8_mh_wrapper.h">
+      <Filter>Source Files\Ref DX8</Filter>
+    </ClInclude>
+    <ClInclude Include="gl_renderer.h">
+      <Filter>Source Files\Ref DX8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\assertions.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\base64.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\clip.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\color.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\color_html_colors.enum.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\core.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\core_net_sys.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\core_opengl.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\core_sdl.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\core_windows.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\dirent_win.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\download.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\download_procs.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\enumbits.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\environment.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\file.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\gl_constants.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\image.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\interface.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\lists.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\lodepng.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\math_general.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\math_matrix.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\math_vector.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\memstick.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\miniz.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\net_simple.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\pak.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\pthreads_core.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\stick.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\stringlib.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\timelib.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\unzip_win.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\vidco.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\vidco_osx_keys.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\zip.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\core\zip_win.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\jconfig.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\jmorecfg.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\jpeglib.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlib.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlib_crc32.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlib_deflate.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlib_gzguts.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlib_inffast.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlib_inffixed.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlib_inflate.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlib_inftrees.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlib_trees.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlib_zconf.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlib_zutil.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlibjpeg_cderror.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlibjpeg_cdjpeg.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlibjpeg_jchuff.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlibjpeg_jdct.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlibjpeg_jdhuff.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlibjpeg_jerror.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlibjpeg_jinclude.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlibjpeg_jmemsys.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlibjpeg_jpegint.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlibjpeg_jversion.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Core\zlibjpeg_transupp.h">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\HTTPClient\HTTPClientSample.h">
+      <Filter>Source Files\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\HTTPClient\API\HTTPClient.h">
+      <Filter>Source Files\HTTP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\HTTPClient\API\HTTPClientAuth.h">
+      <Filter>Source Files\HTTP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\HTTPClient\API\HTTPClientCommon.h">
+      <Filter>Source Files\HTTP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\HTTPClient\API\HTTPClientString.h">
+      <Filter>Source Files\HTTP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\HTTPClient\API\HTTPClientWrapper.h">
+      <Filter>Source Files\HTTP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAppDelegate.h">
+      <Filter>Source Files\iPhone</Filter>
+    </ClInclude>
+    <ClInclude Include="VidUIWindow.h">
+      <Filter>Source Files\iPhone</Filter>
+    </ClInclude>
+    <ClInclude Include="in_win_directinput_overhead.h">
+      <Filter>Source Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="winquake.h">
+      <Filter>Source Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_draw_obs.h">
+      <Filter>Source Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_definitions_sheet.h">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_local.h">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="buffers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chase.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_demo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_input.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_parse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_tent.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="console.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cvar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dedicated.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="host.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="host_cmd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="input.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="input_surface.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="input_touch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="keys.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="location.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main_central.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="model.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="movie.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nehahra.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net_admin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net_bsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net_dgrm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net_loop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net_udp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pr_cmds.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pr_edict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pr_exec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="q_image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="q_lists.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="q_mathlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="q_music.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="r_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="r_efrag.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="r_light.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="r_part.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="r_part_qmb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="recent_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sbar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="screen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snd_dma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snd_mem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snd_mix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sv_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sv_move.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sv_phys.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sv_user.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="talk_macro.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="text_autocomplete.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="text_edit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="text_history.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="text_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="text_undo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tool_inspector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tool_texturepointer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities_install.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="view.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="world.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zone.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="d_edge.c">
+      <Filter>Source Files\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="d_fill.c">
+      <Filter>Source Files\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="d_init.c">
+      <Filter>Source Files\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="d_modech.c">
+      <Filter>Source Files\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="d_part.c">
+      <Filter>Source Files\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="d_polyse.c">
+      <Filter>Source Files\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="d_scan.c">
+      <Filter>Source Files\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="d_sky.c">
+      <Filter>Source Files\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="d_sprite.c">
+      <Filter>Source Files\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="d_surf.c">
+      <Filter>Source Files\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="d_vars.c">
+      <Filter>Source Files\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="d_zpoint.c">
+      <Filter>Source Files\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_alias.c">
+      <Filter>Source Files\Ref GL</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_bloom.c">
+      <Filter>Source Files\Ref GL</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_brush.c">
+      <Filter>Source Files\Ref GL</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_common.c">
+      <Filter>Source Files\Ref GL</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_draw.c">
+      <Filter>Source Files\Ref GL</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_fog.c">
+      <Filter>Source Files\Ref GL</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_mesh.c">
+      <Filter>Source Files\Ref GL</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_rmain.c">
+      <Filter>Source Files\Ref GL</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_rmisc.c">
+      <Filter>Source Files\Ref GL</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_sky.c">
+      <Filter>Source Files\Ref GL</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_sprite.c">
+      <Filter>Source Files\Ref GL</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_test.c">
+      <Filter>Source Files\Ref GL</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_texmgr.c">
+      <Filter>Source Files\Ref GL</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_warp.c">
+      <Filter>Source Files\Ref GL</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_world.c">
+      <Filter>Source Files\Ref GL</Filter>
+    </ClCompile>
+    <ClCompile Include="vid_sdlgl.c">
+      <Filter>Source Files\Ref GL</Filter>
+    </ClCompile>
+    <ClCompile Include="vid_wgl.c">
+      <Filter>Source Files\Ref GL</Filter>
+    </ClCompile>
+    <ClCompile Include="draw.c">
+      <Filter>Source Files\Ref Software</Filter>
+    </ClCompile>
+    <ClCompile Include="r_aclip.c">
+      <Filter>Source Files\Ref Software</Filter>
+    </ClCompile>
+    <ClCompile Include="r_alias.c">
+      <Filter>Source Files\Ref Software</Filter>
+    </ClCompile>
+    <ClCompile Include="r_bsp.c">
+      <Filter>Source Files\Ref Software</Filter>
+    </ClCompile>
+    <ClCompile Include="r_draw.c">
+      <Filter>Source Files\Ref Software</Filter>
+    </ClCompile>
+    <ClCompile Include="r_edge.c">
+      <Filter>Source Files\Ref Software</Filter>
+    </ClCompile>
+    <ClCompile Include="r_main.c">
+      <Filter>Source Files\Ref Software</Filter>
+    </ClCompile>
+    <ClCompile Include="r_misc.c">
+      <Filter>Source Files\Ref Software</Filter>
+    </ClCompile>
+    <ClCompile Include="r_sky.c">
+      <Filter>Source Files\Ref Software</Filter>
+    </ClCompile>
+    <ClCompile Include="r_sprite.c">
+      <Filter>Source Files\Ref Software</Filter>
+    </ClCompile>
+    <ClCompile Include="r_surf.c">
+      <Filter>Source Files\Ref Software</Filter>
+    </ClCompile>
+    <ClCompile Include="vid_sdlwin.c">
+      <Filter>Source Files\Ref Software</Filter>
+    </ClCompile>
+    <ClCompile Include="vid_wsoft.c">
+      <Filter>Source Files\Ref Software</Filter>
+    </ClCompile>
+    <ClCompile Include="vid_wsoftgl.c">
+      <Filter>Source Files\Ref Software</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\core\dx8_mh_wrapper.c">
+      <Filter>Source Files\Ref DX8</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_renderer.c">
+      <Filter>Source Files\Ref DX8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\base64.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\clip.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\color.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\core\core.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\core\dirent_win.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\core\download_curl.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\download_http.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\download_procs.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\core\enumbits.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\core\file.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\file_system.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\core\image.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\core\interface.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\core\lists.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\core\lodepng.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\math_general.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\core\math_matrix.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\core\math_vector.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\memstick.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\net_simple.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\core\pak.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\shell_android.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\shell_linux.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\shell_win.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\stick.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\core\stringlib.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\system.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\core\timelib.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\vidco.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\vidco_console.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\vidco_sdl.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\vidco_win.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\core\zip.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlib_adler32.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlib_compress.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlib_crc32.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlib_deflate.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlib_gzclose.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlib_gzlib.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlib_gzread.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlib_gzwrite.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlib_infback.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlib_inffast.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlib_inflate.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlib_inftrees.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlib_trees.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlib_uncompr.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlib_zutil.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_cjpeg.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jcapimin.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jcapistd.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jccoefct.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jccolor.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jcdctmgr.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jchuff.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jcinit.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jcmainct.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jcmarker.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jcmaster.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jcomapi.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jcparam.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jcphuff.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jcprepct.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jcsample.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jctrans.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jdapimin.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jdapistd.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jdatadst.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jdatasrc.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jdcoefct.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jdcolor.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jddctmgr.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jdhuff.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jdinput.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jdmainct.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jdmarker.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jdmaster.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jdmerge.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jdphuff.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jdpostct.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jdsample.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jdtrans.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jerror.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jfdctflt.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jfdctfst.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jfdctint.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jidctflt.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jidctfst.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jidctint.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jidctred.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jmemansi.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jmemmgr.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jquant1.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jquant2.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_jutils.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_rdbmp.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_rdcolmap.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_rdgif.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_rdppm.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_rdrle.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_rdswitch.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_rdtarga.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_transupp.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_wrbmp.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_wrgif.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_wrppm.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_wrrle.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Core\zlibjpeg_wrtarga.c">
+      <Filter>Source Files\Core\noveau</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\HTTPClient\HTTPClientSample.c">
+      <Filter>Source Files\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\HTTPClient\API\HTTPClient.c">
+      <Filter>Source Files\HTTP\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\HTTPClient\API\HTTPClientAuth.c">
+      <Filter>Source Files\HTTP\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\HTTPClient\API\HTTPClientString.c">
+      <Filter>Source Files\HTTP\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\HTTPClient\API\HTTPClientWrapper.c">
+      <Filter>Source Files\HTTP\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Direct3D_9_MH\d3d9_framebuffer.cpp">
+      <Filter>Source Files\Ref DX9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Direct3D_9_MH\d3d9_gammaandcontrast.cpp">
+      <Filter>Source Files\Ref DX9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Direct3D_9_MH\d3d9_geometry.cpp">
+      <Filter>Source Files\Ref DX9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Direct3D_9_MH\d3d9_glcontext.cpp">
+      <Filter>Source Files\Ref DX9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Direct3D_9_MH\d3d9_matrix.cpp">
+      <Filter>Source Files\Ref DX9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Direct3D_9_MH\d3d9_publicapi.cpp">
+      <Filter>Source Files\Ref DX9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Direct3D_9_MH\d3d9_states.cpp">
+      <Filter>Source Files\Ref DX9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Direct3D_9_MH\d3d9_texenv.cpp">
+      <Filter>Source Files\Ref DX9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Direct3D_9_MH\d3d9_teximage.cpp">
+      <Filter>Source Files\Ref DX9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Direct3D_9_MH\d3d9_unimplemented.cpp">
+      <Filter>Source Files\Ref DX9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Direct3D_9_MH\d3d9_vertexarray.cpp">
+      <Filter>Source Files\Ref DX9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Direct3D_9_MH\d3d9_vertexshader.cpp">
+      <Filter>Source Files\Ref DX9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Direct3D_9_MH\d3d9_viewport.cpp">
+      <Filter>Source Files\Ref DX9</Filter>
+    </ClCompile>
+    <ClCompile Include="cd_win.c">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="dedicated_win.c">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="dshow_mp3.c">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="in_win.c">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="in_win_events.c">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="in_win_joy.c">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="in_win_mouse.c">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="movie_win.c">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="snd_win.c">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="sys_win.c">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="cd_sdl.c">
+      <Filter>Source Files\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="cd_sdl_win.c">
+      <Filter>Source Files\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="in_sdl.c">
+      <Filter>Source Files\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="in_sdl_android.c">
+      <Filter>Source Files\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="snd_sdl.c">
+      <Filter>Source Files\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="sys_sdl.c">
+      <Filter>Source Files\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_draw_obs.c">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_local.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_local_2.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_parts.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="mnu_dialog.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="mnu_help.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="mnu_main.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="mnu_multiplayer.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="mnu_multiplayer_demos.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="mnu_multiplayer_hostgame.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="mnu_multiplayer_hostgame_gameoptions.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="mnu_multiplayer_joingame.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="mnu_multiplayer_joingame_serverlist.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="mnu_multiplayer_playersetup.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="mnu_multiplayer_playersetup_namemaker.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="mnu_options.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="mnu_options_customizecontrols.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="mnu_options_preferences.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="mnu_options_video.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="mnu_quit.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="mnu_singleplayer.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="mnu_singleplayer_levels.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="mnu_singleplayer_load_and_save.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="mnu_z_onscreenkeyboard.c">
+      <Filter>Source Files\Menu\menus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <qasm Include="d_draw.S">
+      <Filter>Source Files\ASM</Filter>
+    </qasm>
+    <qasm Include="d_draw16.S">
+      <Filter>Source Files\ASM</Filter>
+    </qasm>
+    <qasm Include="d_parta.S">
+      <Filter>Source Files\ASM</Filter>
+    </qasm>
+    <qasm Include="d_scana.S">
+      <Filter>Source Files\ASM</Filter>
+    </qasm>
+    <qasm Include="d_spr8.S">
+      <Filter>Source Files\ASM</Filter>
+    </qasm>
+    <qasm Include="d_varsa.S">
+      <Filter>Source Files\ASM</Filter>
+    </qasm>
+    <qasm Include="math.S">
+      <Filter>Source Files\ASM</Filter>
+    </qasm>
+    <qasm Include="r_aclipa.S">
+      <Filter>Source Files\ASM</Filter>
+    </qasm>
+    <qasm Include="r_aliasa.S">
+      <Filter>Source Files\ASM</Filter>
+    </qasm>
+    <qasm Include="r_drawa.S">
+      <Filter>Source Files\ASM</Filter>
+    </qasm>
+    <qasm Include="r_edgea.S">
+      <Filter>Source Files\ASM</Filter>
+    </qasm>
+    <qasm Include="r_varsa.S">
+      <Filter>Source Files\ASM</Filter>
+    </qasm>
+    <qasm Include="surf16.S">
+      <Filter>Source Files\ASM</Filter>
+    </qasm>
+    <qasm Include="surf8.S">
+      <Filter>Source Files\ASM</Filter>
+    </qasm>
+    <qasm Include="sys_wina.S">
+      <Filter>Source Files\ASM</Filter>
+    </qasm>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\SDK\Core\shell_ios.m">
+      <Filter>Source Files\Core</Filter>
+    </None>
+    <None Include="..\SDK\Core\shell_osx.m">
+      <Filter>Source Files\Core</Filter>
+    </None>
+    <None Include="..\SDK\Core\vidco_ios.m">
+      <Filter>Source Files\Core</Filter>
+    </None>
+    <None Include="..\SDK\Core\vidco_osx.m">
+      <Filter>Source Files\Core</Filter>
+    </None>
+    <None Include="cd_ios.m">
+      <Filter>Source Files\iPhone</Filter>
+    </None>
+    <None Include="in_ios.m">
+      <Filter>Source Files\iPhone</Filter>
+    </None>
+    <None Include="Info-iOS.plist">
+      <Filter>Source Files\iPhone</Filter>
+    </None>
+    <None Include="snd_ios.m">
+      <Filter>Source Files\iPhone</Filter>
+    </None>
+    <None Include="sys_ios.m">
+      <Filter>Source Files\iPhone</Filter>
+    </None>
+    <None Include="UIAppDelegate.m">
+      <Filter>Source Files\iPhone</Filter>
+    </None>
+    <None Include="vid_ioswin.m">
+      <Filter>Source Files\iPhone</Filter>
+    </None>
+    <None Include="VidUIWindow.m">
+      <Filter>Source Files\iPhone</Filter>
+    </None>
+    <None Include="mark_v_glquake.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mark_v_glquake2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mark_v_winquake.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="progdefs.q1" />
+    <None Include="progdefs.q2" />
+    <None Include="todo_done.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="mark_v_glquake_vs2008.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="mark_v_winquake_vs2008.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="server.h">
+      <Filter>Source Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="tool_inspector.h">
+      <Filter>Source Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="tool_texturepointer.h">
+      <Filter>Source Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="asm_i386.h">
+      <Filter>Source Files\ASM</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="quakeasm.h">
+      <Filter>Source Files\ASM</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="anorm_dots.h">
+      <Filter>Source Files\Ref GL</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="gl_texmgr.h">
+      <Filter>Source Files\Ref GL</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="gl_warp_sin.h">
+      <Filter>Source Files\Ref GL</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="glquake.h">
+      <Filter>Source Files\Ref GL</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="vid_wglext.h">
+      <Filter>Source Files\Ref GL</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="adivtab.h">
+      <Filter>Source Files\Ref Software</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="d_iface.h">
+      <Filter>Source Files\Ref Software</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="d_local.h">
+      <Filter>Source Files\Ref Software</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="r_local.h">
+      <Filter>Source Files\Ref Software</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="r_shared.h">
+      <Filter>Source Files\Ref Software</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="cd_osx.m">
+      <Filter>Source Files\Mac OS X</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="downloads_osx.m">
+      <Filter>Source Files\Mac OS X</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="in_osx.m">
+      <Filter>Source Files\Mac OS X</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="QAboutPanel.m">
+      <Filter>Source Files\Mac OS X</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="QApplication.m">
+      <Filter>Source Files\Mac OS X</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="QController.m">
+      <Filter>Source Files\Mac OS X</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="QSettingsPanel.m">
+      <Filter>Source Files\Mac OS X</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="QSettingsWindow.m">
+      <Filter>Source Files\Mac OS X</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="snd_osx.m">
+      <Filter>Source Files\Mac OS X</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="sys_osx.m">
+      <Filter>Source Files\Mac OS X</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="vid_osx.m">
+      <Filter>Source Files\Mac OS X</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="..\SDK\Direct3D_9_MH\d3d9_internal.h">
+      <Filter>Source Files\Ref DX9</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="..\SDK\Direct3D_9_MH\d3d9_mathlib.h">
+      <Filter>Source Files\Ref DX9</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="..\SDK\Direct3D_9_MH\d3d9_publicapi.h">
+      <Filter>Source Files\Ref DX9</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="..\SDK\Direct3D_9_MH\d3d9_readme.txt">
+      <Filter>Source Files\Ref DX9</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="..\SDK\Direct3D_9_MH\dx9_mh_wrapper.h">
+      <Filter>Source Files\Ref DX9</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="dedicated_win.h">
+      <Filter>Source Files\Windows</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="sdlquake.h">
+      <Filter>Source Files\SDL</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="documentation.txt" />
+    <CustomBuildStep Include="todo.txt" />
+  </ItemGroup>
+</Project>
