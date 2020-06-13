@@ -14,6 +14,10 @@ While the build system needs updating and modernization, currently the following
 * Build Project.
 * You must have `id1` game files inside the `Mark_V` directory for the executable to run.
 
+# Contribute
+
+I'm looking for experienced "Quake" engine developers to support updating and developing features for this engine. I will also try to merge new updates and feature from the original "Mark V" engine, when they are added. Please read the *Goals*, and if you believe this project's direction suits your needs or if you can help in any way... you know where that "fork" button is!
+
 # Goals
 
 ## Short term
