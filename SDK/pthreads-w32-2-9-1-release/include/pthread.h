@@ -30,6 +30,8 @@
  *      59 Temple Place - Suite 330, Boston, MA 02111-1307, USA
  */
 
+#define HAVE_STRUCT_TIMESPEC
+
 #if !defined( PTHREAD_H )
 #define PTHREAD_H
 

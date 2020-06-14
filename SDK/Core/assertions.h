@@ -99,8 +99,8 @@ COMPILE_TIME_ASSERT(enum, sizeof(THE_DUMMY_ENUM) == sizeof(int));
 #define log_fatal_if_msg(CONDITION, DESCRIPTION) \
 	if (CONDITION) log_fatal (SPRINTSFUNC_ DESCRIPTION " (%s) is true", __func__, STRINGIFY(CONDITION))
 
-#define log_fatal_if_msgf(CONDITION, PRINTFSTRING, __VA_ARGS__) \
-	if (CONDITION) log_fatal (SPRINTSFUNC_ PRINTFSTRING " (%s) is true", __func__, __VA_ARGS__, STRINGIFY(CONDITION))
+#define log_fatal_if_msgf(CONDITION, PRINTFSTRING, ...) \
+	if (CONDITION) log_fatal (SPRINTSFUNC_ PRINTFSTRING " (%s) is true", __func__, ..., STRINGIFY(CONDITION))
 
 //#define test(...) test_ (&_funcinfo_obj, __VA_ARGS__) WORKS in 2008 just fine!
 
