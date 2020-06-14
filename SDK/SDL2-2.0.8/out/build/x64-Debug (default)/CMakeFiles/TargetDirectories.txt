@@ -1,0 +1,9 @@
+C:/mark_v_1099_revision_4_source/SDK/SDL2-2.0.8/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
+C:/mark_v_1099_revision_4_source/SDK/SDL2-2.0.8/out/build/x64-Debug (default)/CMakeFiles/SDL2-static.dir
+C:/mark_v_1099_revision_4_source/SDK/SDL2-2.0.8/out/build/x64-Debug (default)/CMakeFiles/SDL2main.dir
+C:/mark_v_1099_revision_4_source/SDK/SDL2-2.0.8/out/build/x64-Debug (default)/CMakeFiles/install/local.dir
+C:/mark_v_1099_revision_4_source/SDK/SDL2-2.0.8/out/build/x64-Debug (default)/CMakeFiles/install.dir
+C:/mark_v_1099_revision_4_source/SDK/SDL2-2.0.8/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+C:/mark_v_1099_revision_4_source/SDK/SDL2-2.0.8/out/build/x64-Debug (default)/CMakeFiles/SDL2.dir
+C:/mark_v_1099_revision_4_source/SDK/SDL2-2.0.8/out/build/x64-Debug (default)/CMakeFiles/uninstall.dir
+C:/mark_v_1099_revision_4_source/SDK/SDL2-2.0.8/out/build/x64-Debug (default)/CMakeFiles/list_install_components.dir
