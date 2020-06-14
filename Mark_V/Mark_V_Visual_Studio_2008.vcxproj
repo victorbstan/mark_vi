@@ -202,8 +202,8 @@
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DX9 Debug|Win32'">.\objj\Debug_MSVC_2008_DX9Quake\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DX9 Debug|Win32'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='DX9 Debug|Win32'">false</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DX9 Release|Win32'">.\objj\Release_MSVC_2008_DX9Quake\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='DX9 Release|Win32'">.\objj\Release_MSVC_2008_DX9Quake\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DX9 Release|Win32'">.\objj\Release_MSVC_2010_DX9Quake\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DX9 Release|Win32'">.\objj\Release_MSVC_2010_DX9Quake\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DX9 Release|Win32'">false</LinkIncremental>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='WinQuake GL Release|Win32'">.\objj\Release_MSVC_2008_WinQuakeGL\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='WinQuake GL Release|Win32'">.\objj\Release_MSVC_2008_WinQuakeGL\</IntDir>
