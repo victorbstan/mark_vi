@@ -9,8 +9,8 @@ This is a clone of the Quake engine "Mark V", original website: http://quakeone.
 
 Currently only Windows build system has been tested. 
 While the build system needs updating and modernization, currently the following setup shold get you started:
-* Download "Visual Studio 2010 Express".
-* Open `Mark_V\Mark_V_Visual_Studio_2008.vcxproj`.
+* Download "Visual Studio 2019 Community Edition".
+* Open `Mark_V/Mark_V_Visual_Studio_2019.sln`.
 * Build Project.
 * You must have `id1` game files inside the `Mark_V` directory for the executable to run.
 
