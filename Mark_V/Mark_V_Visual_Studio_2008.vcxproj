@@ -681,7 +681,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>kernel32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>c:\quake\mark_v_gl.exe</OutputFile>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../sdk/dxsdk/sdk8/lib;../SDK/pthread-static-msvc2010/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DelayLoadDLLs>libcurl.dll;opengl32.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
@@ -980,7 +980,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>../sdk/;../sdk/core;../sdk/dxsdk/sdk8/include;../SDK/pthreads-w32-2-9-1-release/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../sdk/;../sdk/core;../sdk/dxsdk/sdk8/include;../SDK/pthread-static-msvc2010/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_DEBUG;GLQUAKE;CORE_GL;DEBUGGL;WIN32;_WINDOWS;QUAKE_GAME;CORE_PTHREADS;IMAGE_JPEG_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessToFile>false</PreprocessToFile>
       <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
@@ -1027,7 +1027,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>../sdk/;../sdk/core;../sdk/dxsdk/sdk8/include;../SDK/pthreads-w32-2-9-1-release/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../sdk/;../sdk/core;../sdk/dxsdk/sdk8/include;../SDK/pthread-static-msvc2010/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_DEBUG;GLQUAKE;CORE_GL;DEBUGGL;WIN32;_WINDOWS;QUAKE_GAME;CORE_PTHREADS;IMAGE_JPEG_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessToFile>false</PreprocessToFile>
       <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
