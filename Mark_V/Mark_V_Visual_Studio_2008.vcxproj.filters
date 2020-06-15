@@ -1417,7 +1417,6 @@
     </None>
     <None Include="progdefs.q1" />
     <None Include="progdefs.q2" />
-    <None Include="todo_done.txt" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="mark_v_glquake_vs2008.rc">
@@ -1527,7 +1526,5 @@
     <CustomBuildStep Include="sdlquake.h">
       <Filter>Source Files\SDL</Filter>
     </CustomBuildStep>
-    <CustomBuildStep Include="documentation.txt" />
-    <CustomBuildStep Include="todo.txt" />
   </ItemGroup>
 </Project>
