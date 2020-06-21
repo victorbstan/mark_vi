@@ -1,0 +1,107 @@
+/*
+ * pthread_testcancel.c
+ *
+ * Description:
+ * POSIX thread functions related to thread cancellation.
+ *
+ * --------------------------------------------------------------------------
+ *
+ *      Pthreads4w - POSIX Threads Library for Win32
+ *      Copyright(C) 1998 John E. Bossom
+ *      Copyright(C) 1999-2018, Pthreads4w contributors
+ *
+ *      Homepage: https://sourceforge.net/projects/pthreads4w/
+ *
+ *      The current list of contributors is contained
+ *      in the file CONTRIBUTORS included with the source
+ *      code distribution. The list can also be seen at the
+ *      following World Wide Web location:
+ *      https://sourceforge.net/p/pthreads4w/wiki/Contributors/
+ *
+ * This file is part of Pthreads4w.
+ *
+ *    Pthreads4w is free software: you can redistribute it and/or modify
+ *    it under the terms of the GNU General Public License as published by
+ *    the Free Software Foundation, either version 3 of the License, or
+ *    (at your option) any later version.
+ *
+ *    Pthreads4w is distributed in the hope that it will be useful,
+ *    but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *    GNU General Public License for more details.
+ *
+ *    You should have received a copy of the GNU General Public License
+ *    along with Pthreads4w.  If not, see <http://www.gnu.org/licenses/>. *
+ */
+
+#ifdef HAVE_CONFIG_H
+# include <config.h>
+#endif
+
+#include "pthread.h"
+#include "implement.h"
+
+
+void
+pthread_testcancel (void)
+     /*
+      * ------------------------------------------------------
+      * DOCPUBLIC
+      *      This function creates a deferred cancellation point
+      *      in the calling thread. The call has no effect if the
+      *      current cancelability state is
+      *              PTHREAD_CANCEL_DISABLE
+      *
+      * PARAMETERS
+      *      N/A
+      *
+      *
+      * DESCRIPTION
+      *      This function creates a deferred cancellation point
+      *      in the calling thread. The call has no effect if the
+      *      current cancelability state is
+      *              PTHREAD_CANCEL_DISABLE
+      *
+      *      NOTES:
+      *      1)      Cancellation is asynchronous. Use pthread_join
+      *              to wait for termination of thread if necessary
+      *
+      * RESULTS
+      *              N/A
+      *
+      * ------------------------------------------------------
+      */
+{
+  ptw32_mcs_local_node_t stateLock;
+  pthread_t self = pthread_self ();
+  ptw32_thread_t * sp = (ptw32_thread_t *) self.p;
+
+  if (sp == NULL)
+    {
+      return;
+    }
+
+  /*
+   * Pthread_cancel() will have set sp->state to PThreadStateCancelPending
+   * and set an event, so no need to enter kernel space if
+   * sp->state != PThreadStateCancelPending - that only slows us down.
+   */
+  if (sp->state != PThreadStateCancelPending)
+    {
+      return;
+    }
+
+  ptw32_mcs_lock_acquire (&sp->stateLock, &stateLock);
+
+  if (sp->cancelState != PTHREAD_CANCEL_DISABLE)
+    {
+      ResetEvent(sp->cancelEvent);
+      sp->state = PThreadStateCanceling;
+      sp->cancelState = PTHREAD_CANCEL_DISABLE;
+      ptw32_mcs_lock_release (&stateLock);
+      ptw32_throw (PTW32_EPS_CANCEL);
+      /* Never returns here */
+    }
+
+  ptw32_mcs_lock_release (&stateLock);
+}				/* pthread_testcancel */
