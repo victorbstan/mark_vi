@@ -455,7 +455,7 @@ void Vid_Handle_MousePointer (sys_handle_t cw, sys_handle_t *hmousepointer, mous
 	*hmousepointer = LoadCursor (NULL, W_For_CursorEnum(mousepointer) );
 
 	//SetCursor (hicon);
-	SetClassLong(cw, GCL_HCURSOR, (DWORD)*hmousepointer);
+	SetClassLong(cw, GCLP_HCURSOR, (DWORD)*hmousepointer);
 }
 
 

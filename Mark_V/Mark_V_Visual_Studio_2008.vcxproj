@@ -1398,8 +1398,8 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <InlineFunctionExpansion>Default</InlineFunctionExpansion>
-      <AdditionalIncludeDirectories>../sdk/;../sdk/core;../sdk/direct3d_9_mh;../sdk/dxsdk9/include;../SDK/pthread-static-msvc2010/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>NDEBUG;GLQUAKE;CORE_GL;DIRECT3D9_WRAPPER;DIRECT3DX_WRAPPER;WIN32;_WINDOWS;QUAKE_GAME;CORE_PTHREADS;PTW32_STATIC_LIB;IMAGE_JPEG_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../sdk/;../sdk/core;../sdk/direct3d_9_mh;../sdk/dxsdk9/include;..\SDK\pthreads-w32-2-9-1-release\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;GLQUAKE;CORE_GL;DIRECT3D9_WRAPPER;DIRECT3DX_WRAPPER;WIN32;WIN64;_WINDOWS;QUAKE_GAME;CORE_PTHREADS;PTW32_STATIC_LIB;IMAGE_JPEG_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -1410,6 +1410,7 @@
       <BrowseInformation>true</BrowseInformation>
       <WarningLevel>Level3</WarningLevel>
       <SuppressStartupBanner>true</SuppressStartupBanner>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1418,7 +1419,7 @@
     <Link>
       <AdditionalDependencies>kernel32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>../sdk/dxsdk9/lib/x86;../SDK/pthread-static-msvc2010/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\SDK\pthreads-w32-2-9-1-release\lib\x64;..\SDK\dxsdk9\Lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libci.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <DelayLoadDLLs>libcurl.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -1433,6 +1434,9 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <OutputFile>.\objj\Release_MSVC_2008_DX9Quake/Mark_V_Visual_Studio_2008.bsc</OutputFile>
     </Bscmake>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='WinQuake GL Release|Win32'">
     <Midl>

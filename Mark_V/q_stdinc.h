@@ -149,10 +149,18 @@ typedef unsigned char byte;
 		typedef cbool qasmbool_e;
 	#endif // __CORE_INCLUDED__
 
+	// From Quakespasm
+	/*#undef true
+	#undef false
+	typedef enum {
+		false = 0,
+		true = 1
+	} qboolean;*/
 	COMPILE_TIME_ASSERT (falsehood, ((1 != 1) == false ));
 	COMPILE_TIME_ASSERT (truth,		((1 == 1) == true  ));
 #endif
 COMPILE_TIME_ASSERT (qasmbool_e, sizeof(qasmbool_e) == 4);
+//COMPILE_TIME_ASSERT(qboolean, sizeof(qboolean) == 4);
 
 /*==========================================================================*/
 
@@ -185,13 +193,19 @@ typedef struct
 
 /*==========================================================================*/
 
+//#if defined(_MSC_VER)
+//#if defined(_WIN64)
+//	#define ssize_t	SSIZE_T
+//#else
+////typedef int	ssize_t;
+//#endif // _WIN64
+//#endif // _MSC_VER
+
+/* missing types: */
 #if defined(_MSC_VER)
-#if defined(_WIN64)
-#define ssize_t	SSIZE_T
-#else
-typedef int	ssize_t;
-#endif // _WIN64
-#endif // _MSC_VER
+typedef ptrdiff_t	ssize_t;
+#endif
+
 
 /* compatibility with M$ types */
 #if !defined(_WIN32)

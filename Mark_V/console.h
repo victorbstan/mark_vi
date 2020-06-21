@@ -75,8 +75,7 @@ extern cbool key_inpartial;
 extern int key_completetype;
 extern char *key_partial_start;
 extern char *key_partial_end;
-ssize_t Con_AutoComplete (char *text, size_t s_size, ssize_t cursor, cbool force_completion, cbool *in_completion,
-					   int *complete_type, const char **match_start, const char **match_end, cbool do_reverse);
+ssize_t Con_AutoComplete (char *text, size_t s_size, ssize_t cursor, cbool force_completion, cbool *in_completion, int *complete_type, const char **match_start, const char **match_end, cbool do_reverse);
 
 
 

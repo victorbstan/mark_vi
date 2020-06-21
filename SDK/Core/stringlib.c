@@ -23,6 +23,8 @@
 #include <string.h> // strlen, etc.
 #include <ctype.h> // islower, etc.
 
+#include <../Mark_V/q_stdinc.h>
+
 // Do not like enough for them to be widely available
 #define isnotvisibleascii(c) ((c) <= 32 || 127 <=(c)) // This actually already includes 127 delete char, good job
 #define iswhitespace(c) ((c) <= 32) // What about 127 delete char? // Going for the traditional definition of whitespace here I guess.  I dis
