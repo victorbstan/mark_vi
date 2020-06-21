@@ -662,7 +662,7 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <InlineFunctionExpansion>Default</InlineFunctionExpansion>
-      <AdditionalIncludeDirectories>../sdk/;../sdk/core;../sdk/dxsdk/sdk8/include;../SDK/pthread-static-msvc2010/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../sdk/;../sdk/core;../sdk/dxsdk/sdk8/include;..\SDK\pthreads-w32-2-9-1-release\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NDEBUG;GLQUAKE;CORE_GL;WIN32;_WINDOWS;QUAKE_GAME;CORE_PTHREADS;PTW32_STATIC_LIB;IMAGE_JPEG_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
@@ -683,7 +683,7 @@
       <AdditionalDependencies>kernel32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>../sdk/dxsdk/sdk8/lib;../SDK/pthread-static-msvc2010/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../sdk/dxsdk/sdk8/lib;..\SDK\pthreads-w32-2-9-1-release\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DelayLoadDLLs>libcurl.dll;opengl32.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
