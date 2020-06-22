@@ -11,14 +11,19 @@ Currently only Windows build system has been tested.
 While the build system needs updating and modernization, currently the following setup should get you started:
 * Download "Visual Studio 2019 Community Edition".
 * Open `Mark_V/Mark_V_Visual_Studio_2019.sln`.
-* Build Project.
+* Build Project for Solution Platform `x64`
+ * Switch to `win64` branch
   * Working Solution Configurations:
-    * GL Release
-    * DX9 Release
-  * Deprecated Solution Configurations:
-    * DX8 Debug
-    * DX8 Release
+   * DX9 Release
+* Build Project for Solution Platform `Win32`
+ * Working Solution Configurations:
+  * GL Release
+  * DX9 Release
+ * Deprecated Solution Configurations:
+  * DX8 Debug
+  * DX8 Release
 * You must have `id1` game files inside the `Mark_V` directory for the executable to run.
+
 
 # Contribute
 
