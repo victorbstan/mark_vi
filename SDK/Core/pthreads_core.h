@@ -28,15 +28,13 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #include "environment.h"
 #include <pthread.h>
 #ifdef PLATFORM_WINDOWS
-	#ifdef __VISUAL_STUDIO_6__
-		#pragma comment (lib, "pthreadVC2.lib")
-	#else
-	//	#ifdef _DEBUG
-	//		#pragma comment (lib, "pthreadVCd2.lib")
-	//	#else
-			#pragma comment (lib, "pthreadVC2.lib")
-//		#endif
-	#endif
+
+//	#ifdef _DEBUG
+//		#pragma comment (lib, "pthreadVCd2.lib")
+//	#else
+		#pragma comment (lib, "libpthreadVC2.lib")
+//  #endif
+	
 #endif
 
 #endif // __PTHREADS_CORE_H__
