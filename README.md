@@ -11,11 +11,10 @@ Currently only Windows build system has been tested.
 While the build system needs updating and modernization, currently the following setup should get you started:
 * Download "Visual Studio 2019 Community Edition".
 * Open `Mark_V/Mark_V_Visual_Studio_2019.sln`.
-* Build Project for Solution Platform `x64`
-  * Switch to `win64` branch
-    * Working Solution Configurations:
+* Build Project for Solution Platform `x64` (use `win64` branch)
+  * Working Solution Configurations:
     * DX9 Release
-* Build Project for Solution Platform `Win32`
+* Build Project for Solution Platform `Win32` (use `master` branch)
   * Working Solution Configurations:
     * GL Release
     * DX9 Release
