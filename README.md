@@ -3,6 +3,31 @@
 
 This is a clone of the Quake engine "Mark V", original website: http://quakeone.com/markv/.
 
+# Features
+
+* __Graphics__
+  * Direct X9 on Windows, up to 1000 FPS on 2080Ti.
+  * Mirror effects / reflections.
+  * Built-in AVI video capture & screen capture.
+  * Particle effects options.
+  * Original "water warp" effect.
+  * _Still stays true to original Quake aesthetic by default._
+* __Multi Player__
+  * IPv6 support.
+  * Co-op features: walk-through player spawn, per-player scoreboard.
+* __Mods__
+  * Install mods from any online source using game console: `install http://mod-file-link.zip`.
+  * External Texture support.
+  * External `.vis` support.
+* __Interface__
+  * Mouse menu support, easy to use & clean interface.
+  * List of levels, and custom maps.
+  * Copy+Paste in game console.
+  * Auto-completion in game console (`tab, ctrl+space`).
+* __Misc.__
+  * Demo rewind.
+  * And much more inherited from other game engines.
+
 # Building / Compiling
 
 ## Windows
@@ -11,10 +36,10 @@ Currently only Windows build system has been tested.
 While the build system needs updating and modernization, currently the following setup should get you started:
 * Download "Visual Studio 2019 Community Edition".
 * Open `Mark_V/Mark_V_Visual_Studio_2019.sln`.
-* Build Project for Solution Platform `x64` (use `win64` branch)
+* __Build Project for Solution Platform `x64` (use `win64` branch)__
   * Working Solution Configurations:
     * DX9 Release
-* Build Project for Solution Platform `Win32` (use `master` branch)
+* __Build Project for Solution Platform `Win32` (use `master` branch)__
   * Working Solution Configurations:
     * GL Release
     * DX9 Release
