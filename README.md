@@ -40,7 +40,7 @@ I'm looking for experienced "Quake" engine developers to support updating and de
 
 * Update rendering engine to DX11 / Vulkan / Etc.
 * Provide an easy to use and flexible engine to support Quake mapping, modding, as well as full conversion games.
-* Maintain a phylosophy of easy to use and highly focused feature set.
+* Maintain easy to use and highly focused feature set.
 
 ### Long term
 * Provide a "Quake" based engine that is easy to use and flexible for creating new community driven as well as commercial games.
