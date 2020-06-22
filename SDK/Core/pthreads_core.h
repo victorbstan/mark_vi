@@ -34,7 +34,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 //	#else
 		#pragma comment (lib, "libpthreadVC2.lib")
 //  #endif
-	
+
 #endif
 
 #endif // __PTHREADS_CORE_H__
