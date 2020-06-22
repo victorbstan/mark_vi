@@ -11,17 +11,21 @@ This is a clone of the Quake engine "Mark V", original website: http://quakeone.
   * Built-in AVI video capture & screen capture.
   * Particle effects options.
   * Original "water warp" effect.
+  * Optional dynamic shadows enabled with: `r_shadows 3`.
   * _Still stays true to original Quake aesthetic by default._
 * __Multi Player__
   * IPv6 support.
   * Co-op features: walk-through player spawn, per-player scoreboard.
 * __Mods__
-  * Install mods from any online source using game console: `install http://mod-file-link.zip`.
+  * Install mods from _Qaddicted_ site using game console: `install http://mod-file-link.zip`.
   * External Texture support.
   * External `.vis` support.
+  * Single file, no external DLLs. Easy to distribute with your mods.
+  * In-game/realtime/interactive mod tools: view texture information, replace textures, etc.
 * __Interface__
   * Mouse menu support, easy to use & clean interface.
-  * List of levels, and custom maps.
+  * XBox Controller support.
+  * Menu list of levels, and custom maps enable you to quickly select maps.
   * Copy+Paste in game console.
   * Auto-completion in game console (`tab, ctrl+space`).
 * __Misc.__
