@@ -42,8 +42,8 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 //#define	QUAKE_GAME			// as opposed to utilities .. Baker: Moved to project level define
 
 #define	QUAKE_VERSION					1.09
-#define ENGINE_FAMILY_NAME				"Mark V"		// Config.cfg stamp
-#define ENGINE_VERSION					1.99
+#define ENGINE_FAMILY_NAME				"Mark VI"		// Config.cfg stamp
+#define ENGINE_VERSION					0.199			// Was 1.99 for Mark V
 #define	ENGINE_BUILD					1099			// null.mdl carrying and effect in Nehahra NEH2M1 fire near Ogre + Fiend.  Does not render.
 
 
@@ -87,8 +87,8 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 extern fn_set_t qfunction_set;
 
-// Engine Family Name = "Mark V"
-// Engine Window Name = "WinQuake Mark V"
+// Engine Family Name = "Mark VI"
+// Engine Window Name = "WinQuake Mark VI"
 
 // Baker:  Let's keep debugging consistent across platforms please!
 #if defined(DEBUG) && !defined (_DEBUG)
@@ -108,20 +108,20 @@ extern fn_set_t qfunction_set;
 #ifdef DIRECT3D9_WRAPPER // dx9 - engine name (DirectX 9)
 
 	#define TEMP_BASE_NAME "DirectX 9 " ENGINE_FAMILY_NAME
-	#define ENGINE_SHOT_PREFIX "mark_v_"
+	#define ENGINE_SHOT_PREFIX "mark_vi_"
 #elif DIRECT3D8_WRAPPER // dx8 - engine name (DirectX 8)
 	#define TEMP_BASE_NAME "DirectX 8 " ENGINE_FAMILY_NAME
-	#define ENGINE_SHOT_PREFIX "mark_v_"
+	#define ENGINE_SHOT_PREFIX "mark_vi_"
 #elif defined(GLQUAKE)
 	#define TEMP_BASE_NAME ENGINE_FAMILY_NAME
-	#define ENGINE_SHOT_PREFIX "mark_v_"
+	#define ENGINE_SHOT_PREFIX "mark_vi_"
 #else
 	#if defined(CORE_GL) && !defined(PLATFORM_LINUX) // Let's not confuse the Linux users, as this may be the only WinQuake build ever made for Linux (i.e. no Non-GL build)
 		#define TEMP_BASE_NAME "WinQuake-GL " ENGINE_FAMILY_NAME  // Prefix it WinQuake
 	#else
 		#define TEMP_BASE_NAME "WinQuake " ENGINE_FAMILY_NAME  // Prefix it WinQuake
 	#endif
-	#define ENGINE_SHOT_PREFIX "winquake_mark_v_"
+	#define ENGINE_SHOT_PREFIX "winquake_mark_vi_"
 #endif
 
 // ENGINE_NAME:
@@ -208,6 +208,10 @@ extern fn_set_t qfunction_set;
 	#define GLQUAKE_VIEW_BLENDS
 	#define SHADOW_VOLUMES
 
+	// VBS
+	#undef SUPPORTS_MP3_MUSIC
+	#define WANTED_MP3_MUSIC // But ... can't have it.
+
 #ifndef DIRECT3D9_WRAPPER // dx9 - we don't have texture gamma integrated
 	#define GLQUAKE_TEXTUREGAMMA_SUPPORT
 #endif // DIRECT3D9_WRAPPER
@@ -232,7 +236,6 @@ extern fn_set_t qfunction_set;
 	#define WINQUAKE_STIPPLE_WATERALPHA
 	#define WINQUAKE_QUICK_PALETTE
 	#define WINQUAKE_QBISM_ALPHAMAP // Attempt. Nov 16.
-
 
 #ifdef PLATFORM_OSX
 	#define WINQUAKE_VSYNC_SUPPORT

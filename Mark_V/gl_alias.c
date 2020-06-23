@@ -35,9 +35,9 @@ gltexture_t *playertextures[MAX_COLORMAP_SKINS_1024];
 
 
 
-float r_avertexnormals[NUMVERTEXNORMALS_162][3] = {
+//float r_avertexnormals[NUMVERTEXNORMALS_162][3] = 
 	#include "anorms.h"
-};
+//;
 
 vec3_t	shadevector;
 
@@ -45,9 +45,9 @@ extern vec3_t	lightcolor; //johnfitz -- replaces "float shadelight" for lit supp
 
 // precalculated dot products for quantized angles
 #define SHADEDOT_QUANT_16 16
-float	r_avertexnormal_dots[SHADEDOT_QUANT_16][256] =
+//float	r_avertexnormal_dots[SHADEDOT_QUANT_16][256] = 
 	#include "anorm_dots.h"
-;
+//;
 
 extern vec3_t lightspot;
 

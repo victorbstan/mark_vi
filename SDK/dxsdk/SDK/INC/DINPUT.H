@@ -397,6 +397,7 @@ typedef struct _DIMOUSESTATE {
 #define DIMOFS_BUTTON1 (FIELD_OFFSET(DIMOUSESTATE, rgbButtons) + 1)
 #define DIMOFS_BUTTON2 (FIELD_OFFSET(DIMOUSESTATE, rgbButtons) + 2)
 #define DIMOFS_BUTTON3 (FIELD_OFFSET(DIMOUSESTATE, rgbButtons) + 3)
+#define DIMOFS_BUTTON4 (FIELD_OFFSET(DIMOUSESTATE, rgbButtons) + 4)
 
 /****************************************************************************
  *

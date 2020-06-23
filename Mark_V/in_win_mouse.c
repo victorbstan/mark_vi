@@ -36,7 +36,8 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #ifdef DIRECT3D9_WRAPPER
 #pragma comment (lib, "dinput8.lib")
 #else
-#pragma comment (lib, "dinput.lib")
+//#pragma comment (lib, "dinput8.lib")
+#pragma comment (lib, "XInput.lib")
 #endif
 #pragma comment (lib, "dxguid.lib")
 
