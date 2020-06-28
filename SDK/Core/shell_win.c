@@ -860,7 +860,7 @@ cbool Shell_Input_KeyBoard_Capture (cbool bDoCapture, cbool ActOnStickeyKeys, cb
 	///////////////////////////////////////////////////////////////////////////////
 
 	#include "core_sdl.h"
-	//#include <SDL_syswm.h>
+	#include <SDL_syswm.h>
 	static HICON gAppIcon;
 	cbool Shell_Platform_Icon_Load (void *key /*wildcard*/)
 	{
@@ -887,8 +887,8 @@ cbool Shell_Input_KeyBoard_Capture (cbool bDoCapture, cbool ActOnStickeyKeys, cb
 		else {
 			HWND hWnd = wminfo.info.win.window;
 			
-
-			SetClassLong (hWnd /*hwnd*/, GCL_HICON, (LONG) gAppIcon); // This is the class icon, not the window icon. No effect.
+			// GCL_HICON -- VBS: was enabled, but don't know what it's supposed to be... causes compilation issues
+			SetClassLong (hWnd /*hwnd*/, /*GCL_HICON*/ NULL, (LONG) gAppIcon); // This is the class icon, not the window icon. No effect.
 			//SendMessage(hWnd, WM_SETICON, ICON_BIG,  (LPARAM) gAppIcon);
 			//SendMessage(hWnd, WM_SETICON, ICON_SMALL, (LPARAM) gAppIcon);
 

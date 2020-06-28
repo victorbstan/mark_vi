@@ -35,10 +35,10 @@
 
 #ifdef _MSC_VER
 	//#pragma warning( disable : 4142 ) // SDL likes to define int8_t, uintptr_t, etc.
-	#pragma comment (lib, "sdl2.lib")
-	#pragma comment (lib, "sdl2main.lib")
-	#include <SDL2/SDL.h> // Formerly #include <SDL.h>
-	#include <SDL2/SDL_syswm.h> // Formerly #include <SDL.h>
+	#pragma comment (lib, "SDL2.lib")
+	#pragma comment (lib, "SDL2main.lib")
+	#include <SDL.h>
+	#include <SDL_syswm.h>
 
 	//#include <core_windows.h> // LLWinKeyHook
 #else
@@ -46,8 +46,8 @@
 	#if defined(PLATFORM_ANDROID)
 		#include <SDL.h>
 	#elif defined(PLATFORM_LINUX)
-		#include <SDL2/SDL.h>
-		#include <SDL2/SDL_syswm.h> // To expose things like HWND to us.
+		#include <SDL.h>
+		#include <SDL_syswm.h> // To expose things like HWND to us.
 	#else
 		#include <SDL.h>
 		#include <SDL_syswm.h> // To expose things like HWND to us.

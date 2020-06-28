@@ -27,9 +27,9 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #ifdef _MSC_VER
 
 #pragma warning( disable : 4142 ) // SDL likes to define int8_t, uintptr_t, etc.
-#pragma comment (lib, "sdl2.lib")
-#pragma comment (lib, "sdl2main.lib")
-#include <SDL2/SDL.h>
+#pragma comment (lib, "SDL2.lib")
+#pragma comment (lib, "SDL2main.lib")
+#include <SDL.h>
 
 #include <core_windows.h> // LLWinKeyHook
 #else // Not _MSC_VER
@@ -37,7 +37,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 	#if defined(PLATFORM_ANDROID)
 		#include <SDL.h>
 	#elif defined(PLATFORM_LINUX)
-        #include <SDL2/SDL.h>
+        #include <SDL.h>
 	#else
         #include <SDL.h>
 	#endif
