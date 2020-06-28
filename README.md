@@ -43,6 +43,7 @@ While the build system needs updating and modernization, currently the following
 * __Build Project for Solution Platform `x64` (use `win64` branch)__
   * Working Solution Configurations:
     * DX9 Release
+    * GL Release
 * __Build Project for Solution Platform `Win32` (use `master` branch)__
   * Working Solution Configurations:
     * GL Release
